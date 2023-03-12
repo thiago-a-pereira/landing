@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title>Dr. Brenner Gontijo - Direito Imobiliário</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+         
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="menu()">
+            <i class="fa fa-bars" id="botao"></i>
+          </a>
+          <a href="#" onclick="menu()">Início</a>
+          <a href="#servicos"  onclick="menu()">Meus serviços</a>
+          <a href="#sobre"  onclick="menu()">Sobre mim</a>
+          <a href="https://wa.me/5562993963103"  onclick="menu()" target="_blank">Entre em contato</a>
+        </div>
+
+        <a href="#" class="logo"><span class="dr">Dr </span><span class="brenner">Brenner</span><span class="gontijo"> Gontijo</span
+          ><span class="fist"></span></a>
+
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+            <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+            <ion-icon name="moon-outline" class="moon"></ion-icon>
+            <div class="switcher"></div>
+        </label>
+
+
+        <div class="whatsapp">
+          <a href="https://wa.me/5562993963103" target="_blank"><img
+          src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone-3.png"
+          class="socicon wpp"
+          alt="Whatsapp"
+         /> </a>
+       
+    </nav>
+    
+
+
+
+    <!-- Dark/light theme switcher -->
+
+    <!-- Bars -->
+    <section class="call" id="call-id">
+      <div class="intro-text">
+        <h1>
+          <span class="precisa"> Precisa de um advogado para resolver </span>
+          <span class="problema"> seu problema imobiliário?</span>
+        </h1>
+        <p>
+          Vamos encontrar a melhor solução.
+        </p>       
+      </div>
+    </section>
+
+
+    <!-- Hero section -->
+    <section class="apresentacao" id="apresentacao-id">
+      <div class="intro-textt">
+        <div class="foto">
+          <a href="">
+            <img
+              src="foto3.jpg"
+              alt="Brenner Gontigo"
+              title="BG"
+              width=80%
+              height=80%
+            />
+          </a>
+        </div>
+        <div class="nome-bren">
+        <h1>
+          <span class="drbre"> Dr. Brenner Gontijo<br> </span>
+          <span class="oabgo"> OAB-GO XXXXXX</span>
+        </h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a mi molestie, pharetra metus vitae, egestas tortor. Quisque tempus finibus ex nec dignissim. Nam vehicula mattis dui id accumsan. In tempor neque vitae rutrum porta. Curabitur quis ante tempor, facilisis turpis at, imperdiet nibh. Nullam vitae tristique ante, id aliquam felis. Suspendisse consequat risus vel ultricies consequat. Aenean pulvinar tempus dolor eget volutpat. Morbi vel luctus sem. Sed nec consequat dolor, aliquet malesuada lorem. In eu quam sapien.</h2>
+        <a class="btn red" href="https://wa.me/5562993963103"  onclick="menu()" target="_blank">Fale comigo no WhatsApp</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="servicos" id="servicos">
+      <h2>Serviços</h2>
+      <div class="titulos">
+        <div class="titulo-a" onclick="popUp('titulo-a myPopup')"> 
+          <div class="imagem-a"><img src="https://cdn-icons-png.flaticon.com/512/69/69544.png" width="50px"></div>
+          <div class="nome-a">Lorem Ipsum </div>
+        <span class="popuptext" id="titulo-a myPopup">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a mi molestie, pharetra metus vitae, egestas tortor. Quisque tempus finibus ex nec dignissim. Nam vehicula mattis dui id accumsan. In tempor neque vitae rutrum porta. Curabitur quis ante tempor, facilisis turpis at, imperdiet nibh. Nullam vitae tristique ante, id aliquam felis. Suspendisse consequat risus vel ultricies consequat. Aenean pulvinar tempus dolor eget volutpat. Morbi vel luctus sem. Sed nec consequat dolor, aliquet malesuada lorem. In eu quam sapien.</span>
+          <div class="saiba-a">Saiba mais</div>
+        </div>
+
+        <div class="titulo-b" onclick="popUp('titulo-b myPopup')">
+            <div class="imagem-b"><img src="https://cdn-icons-png.flaticon.com/512/69/69544.png" width="50px"></div>
+            <div class="nome-b">Lorem Ipsum </div>
+          <span class="popuptext" id="titulo-b myPopup">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a mi molestie, pharetra metus vitae, egestas tortor. Quisque tempus finibus ex nec dignissim. Nam vehicula mattis dui id accumsan. In tempor neque vitae rutrum porta. Curabitur quis ante tempor, facilisis turpis at, imperdiet nibh. Nullam vitae tristique ante, id aliquam felis. Suspendisse consequat risus vel ultricies consequat. Aenean pulvinar tempus dolor eget volutpat. Morbi vel luctus sem. Sed nec consequat dolor, aliquet malesuada lorem. In eu quam sapien.</span>
+            <div class="saiba-b">Saiba mais</div>
+        </div>
+
+          <div class="titulo-c" onclick="popUp('titulo-c myPopup')">
+            <div class="imagem-c"><img src="https://cdn-icons-png.flaticon.com/512/69/69544.png" width="50px"></div>
+            <div class="nome-c">Lorem Ipsum </div>
+            <span class="popuptext" id="titulo-c myPopup">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a mi molestie, pharetra metus vitae, egestas tortor. Quisque tempus finibus ex nec dignissim. Nam vehicula mattis dui id accumsan. In tempor neque vitae rutrum porta. Curabitur quis ante tempor, facilisis turpis at, imperdiet nibh. Nullam vitae tristique ante, id aliquam felis. Suspendisse consequat risus vel ultricies consequat. Aenean pulvinar tempus dolor eget volutpat. Morbi vel luctus sem. Sed nec consequat dolor, aliquet malesuada lorem. In eu quam sapien.</span>
+            <div class="saiba-c">Saiba mais</div>
+          </div>
+      </div>
+    </section>
+
+        <!-- Social icons -->
+        <section class="social">
+          <h3>Acompanhe minhas redes sociais</h3>
+          <div class="socicons">
+            <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+          </div>
+        </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="loc" id="loc">
+      <div class="loc-titulo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15287.585865404106!2d-49.2585498!3d-16.6820636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef165d4163bfb%3A0x7e60d70be9bf3c32!2sGon%C3%A7alves%2C%20Macedo%2C%20Paiva%20e%20Rassi%20Advogados%20-%20GMPR!5e0!3m2!1spt-BR!2sbr!4v1678639832256!5m2!1spt-BR!2sbr" width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
+    </section>
+
+
+
+    <footer>&copy;2020. All Rights Reserved</footer>
+
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+     ><img
+       src="http://cdn.onlinewebfonts.com/svg/img_70229.png"
+       class="socicon up-arrow"
+       alt="up-arrow"
+      />
+    </i>
+
+
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+    </script>
+  </body>
+</html>
