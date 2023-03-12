@@ -876,17 +876,18 @@ body.dark .up-arrow {
 
   .intro-text h1 {
     text-align: center;
-    font-size: 2.3rem;  
+    font-size: 3rem;  
    
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
   }
 
   .call p {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin: auto;
   }
+
 
 
 
