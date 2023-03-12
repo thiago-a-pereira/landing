@@ -1252,5 +1252,24 @@ body.dark .up-arrow {
   .stand-2 {
     left: 195px;
   }
+  
+    .loc-titulo{
+    height: 400px;
+    overflow:hidden;
+    position:relative;
+    width: 100%;
+  }
+  
+  .loc-titulo iframe{
+  
+    left:0;
+    bottom: 50;
+    top:0;
+    margin: 2% 50% 2% 20%;
+    height:100%;
+    width:500px;
+    position:absolute;
+  }
+
 }
 
