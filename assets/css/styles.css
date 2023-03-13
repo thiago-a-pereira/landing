@@ -153,15 +153,17 @@ nav {
 .call{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-top: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   max-width: 100%;
-  margin: 0% 1%;
 }
 
 .intro-text h1 {
   font-size: 3rem;
   width: 100%;
   margin: 0 0;
+  left: 5;
   text-align: center;
 }
 
