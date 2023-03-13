@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap|Eczar");
+@import url("https://fonts.googleapis.com/css2?family=Sono");
 /* CSS Variables */
 :root {
   --normal-font: 400;
@@ -26,6 +26,7 @@ html {
 
  body {
   font-family: "Roboto", sans-serf;
+  background-color: #f6f6f6;
 }
 
 ul li {
@@ -34,6 +35,7 @@ ul li {
 
 a {
   text-decoration: none;
+  font-weight: 600;
   color: var(--primary-color);
 }
 
@@ -43,36 +45,47 @@ a:hover {
 
 .dr {
   position: relative;
-  color: var(--secondary-color);
+  color: #fff;
 }
 
 .brenner {
   position: relative;
-  height: 1px;
-  color: #fff;
+  height: 5px;
+  color: #000;
+  font-family: "Sono";
+  font-weight: 600;
+  line-height: 0.5rem;
 }
 
 .gontijo {
   position: relative;
   color: var(--secondary-color);
+  font-size: 1.45rem;
+  line-height: 0.5rem;
+  font-family: "Sono";
 }
 
 nav {
-  background: #000000;
+  background-color: #f6f6f6;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  box-shadow: 2px 3px 2px #f1f1f1;
+  padding: 1rem 2.5rem;
+  height: 100px;
   position: sticky;
-  top: 0;
-  left: 0;
+
   z-index: 1;
 }
 
 .logo {
-  font-size: 3rem;
+  position: fixed;
+  top: 5;
+  right: 0;
+  font-size: 5rem;
   font-weight: 600;
+  line-height: 1.5rem;
+
 }
 
 /* Add a black background color to the top navigation */
@@ -86,12 +99,13 @@ nav {
 .topnav a {
   float: left;
   display: block;
-  color: #ffffff;
+  color: #000000;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* Change the color of links on hover */
@@ -117,6 +131,7 @@ nav {
   .topnav a.icon {
     float: center;
     display: block;
+
   }
 }
 
@@ -139,9 +154,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.9rem;
-  max-width: 85%;
-  margin: 3% 5%;
+  max-width: 100%;
+  margin: 0% 1%;
 }
 
 .intro-text h1 {
@@ -191,18 +205,20 @@ nav {
 }
 .nome-bren{
   width: 50%;
+  margin-top: 5rem;
 }
 
 .nome-bren h1 {
   font-size: 3rem;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
   width: 100%;
   margin: 0 0;
 }
 
 .nome-bren h2 {
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
   width: 100%;
   margin: 0 0;
 }
@@ -229,7 +245,7 @@ nav {
 
 
 .btn {
-  margin-top: 1rem;
+  margin-top: 5rem;
   display: inline-block;
   padding: 0.8rem 0.6rem;
   border: none;
@@ -243,7 +259,7 @@ nav {
 .red {
   background-color: green;
   color: #fff;
-  margin-right: 1.5rem;
+  margin-right: 2.5rem;
   width: 100%;
 }
 
@@ -272,6 +288,9 @@ nav {
   align-content: center;
 }
 
+.foto-mob{
+  display: none;
+}
 
 
 
@@ -373,6 +392,19 @@ nav {
   line-height: 3.5rem;
 }
 
+.titulos-b {
+  position: relative;
+  background: url("../images/jab-transformed.png") no-repeat top center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  line-height: 3.5rem;
+}
+
 .saiba-a{
   font-size: 1.5rem;
 
@@ -382,29 +414,27 @@ nav {
 /* Popup container */
 .titulo-a {
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: -20px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: 500px;
   height: 250px;
-  border-radius: 1rem;
-  border: thick double #000;
-  
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
 /* The actual popup (appears on top) */
 .titulo-a .popuptext {
-
   flex-flow: row wrap;
   padding: 0.5rem;
   line-height: 1.5rem;
   font-size: 1.5rem;
-  max-height: 50vh;
-  max-width:70vw;
   visibility: hidden;
   background-color: #000;
   color: #fff;
@@ -412,7 +442,6 @@ nav {
   border-radius: 25px;
   position: absolute;
   z-index: 1;
-
 }
 
 /* Popup arrow 
@@ -455,29 +484,28 @@ nav {
 /* Popup container */
 .titulo-b {
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: -20px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: 500px;
   height: 250px;
-  border-radius: 1rem;
-  border: thick double #000;
-  
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
 /* The actual popup (appears on top) */
 .titulo-b .popuptext {
-
   flex-flow: row wrap;
   padding: 0.5rem;
+  max-width: 30vw;
   line-height: 1.5rem;
   font-size: 1.5rem;
-  max-height: 50vh;
-  max-width: 32vw;
   visibility: hidden;
   background-color: #000;
   color: #fff;
@@ -485,7 +513,6 @@ nav {
   border-radius: 25px;
   position: absolute;
   z-index: 1;
-
 }
 
 /* Popup arrow 
@@ -527,29 +554,27 @@ nav {
 /* Popup container */
 .titulo-c {
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: -20px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: 500px;
   height: 250px;
-  border-radius: 1rem;
-  border: thick double #000;
-  
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
 /* The actual popup (appears on top) */
 .titulo-c .popuptext {
-
   flex-flow: row wrap;
   padding: 0.5rem;
   line-height: 1.5rem;
   font-size: 1.5rem;
-  max-height: 50vh;
-  max-width:70vw;
   visibility: hidden;
   background-color: #000;
   color: #fff;
@@ -557,7 +582,6 @@ nav {
   border-radius: 25px;
   position: absolute;
   z-index: 1;
-
 }
 
 /* Popup arrow 
@@ -589,6 +613,218 @@ nav {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+
+.saiba-d{
+  font-size: 1.5rem;
+
+  font-weight: 300;
+}
+
+/* Popup container */
+.titulo-d {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+/* The actual popup (appears on top) */
+.titulo-d .popuptext {
+  flex-flow: row wrap;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Popup arrow 
+.titulo-d .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.titulo-d .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+.saiba-e{
+  font-size: 1.5rem;
+
+  font-weight: 300;
+}
+
+/* Popup container */
+.titulo-e {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+/* The actual popup (appears on top) */
+.titulo-e .popuptext {
+  flex-flow: row wrap;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Popup arrow 
+.titulo-e .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.titulo-e .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+.saiba-f{
+  font-size: 1.5rem;
+
+  font-weight: 300;
+}
+
+/* Popup container */
+.titulo-f {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 2rem;
+  border: thick double #000000;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+/* The actual popup (appears on top) */
+.titulo-f .popuptext {
+  flex-flow: row wrap;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Popup arrow 
+.titulo-f .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.titulo-f .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
 
 .servicos h2 {
 
@@ -833,6 +1069,19 @@ body.dark .up-arrow {
 
 @media screen and (max-width: 1000px) {
 
+
+  nav {
+    background-color: #f6f6f6;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    height: 250px;
+    position: sticky;
+  
+    z-index: 1;
+  }
   ul {
     background-color: #fff;
     flex-direction: column;
@@ -891,7 +1140,6 @@ body.dark .up-arrow {
 
 
 
-
   .apresentacao{
     display: flex;
     flex-direction: column;
@@ -919,8 +1167,8 @@ body.dark .up-arrow {
   
   .nome-bren h2 {
     font-size: 1.5rem;
+    font-weight: 300;
     line-height: auto;
-    font-weight:300;
     width: 100%;
     margin: 0 0;
   }
@@ -978,17 +1226,19 @@ body.dark .up-arrow {
     background-color: #095cf7;
     color: #fff;
   }
+   .foto{
+      display: none;
+   }
   
-  
-  .foto{
-    width: 50%;
+  .foto-mob{    
+    width: 100%;
     position: relative;
-    left: 20%;
-    height: 70%;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    margin-left: 10%;
     align-content: center;
+    height: 100%;
+    left: 10%;
+    border-radius: 35px;
+    align-content: center;
+    
   }
   
   
@@ -1208,6 +1458,205 @@ body.dark .up-arrow {
 
 
 
+
+  .titulos-b {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Popup container */
+  .titulo-d {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+    border: thick double #000;
+    
+  }
+
+  /* The actual popup (appears on top) */
+  .titulo-d .popuptext {
+
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    max-height: 50vh;
+    max-width: 80vw;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+
+  }
+
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .titulo-d .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+
+
+  /* Popup container */
+  .titulo-e {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+    border: thick double #000;
+    
+  }
+
+  /* The actual popup (appears on top) */
+  .titulo-e .popuptext {
+
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    max-height: 50vh;
+    max-width: 80vw;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+
+  }
+
+  /* Popup arrow 
+  .titulo-e .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }*/
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .titulo-e .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+  /* Popup container */
+  .titulo-f {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+    border: thick double #000;
+    
+  }
+
+  /* The actual popup (appears on top) */
+  .titulo-f .popuptext {
+
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    max-height: 50vh;
+    max-width: 80vw;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+
+  }
+
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .titulo-f .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+
+
+
+
   .loc-titulo{
     height: 400px;
     overflow:hidden;
@@ -1253,8 +1702,9 @@ body.dark .up-arrow {
   .stand-2 {
     left: 195px;
   }
-  
-    .loc-titulo{
+
+
+  .loc-titulo{
     height: 400px;
     overflow:hidden;
     position:relative;
@@ -1266,7 +1716,7 @@ body.dark .up-arrow {
     left:0;
     bottom: 50;
     top:0;
-    margin: 2% 30% 2% 10%;
+    margin: 2% 20% 2% 20%;
     height:100%;
     width:500px;
     position:absolute;
