@@ -1124,6 +1124,7 @@ body.dark .up-arrow {
   }
   
   .logo {
+    display: block;
     position: fixed;
     top: 5;
     right: 2%;
