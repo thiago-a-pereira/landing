@@ -44,11 +44,17 @@ function popUp(id) {
   var opa = document.getElementById("opaco-id");
   if (opa.className === "opaco"){
     opa.className += " responsive";
-  } else{
-      opa.className = "opaco";
-      opa.addEventListener("click", function(){
-      pop.className = "popuptext";
-      opa.className = "opaco";
+  } else {
+    opa.className = "opaco";
+  }
+  if(opa.className === "opaco responsive"){
+    opa.addEventListener("click", function(){
+      console.log("click ok");
+      console.log(pop.className);
+      if(pop.className === "popuptext show"){
+        pop.classList.toggle("show");
+        opa.className = "opaco";
+      }
     })
   }
 }
