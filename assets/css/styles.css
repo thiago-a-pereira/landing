@@ -162,7 +162,7 @@ nav {
 .intro-text h1 {
   font-size: 3rem;
   width: 100%;
-  margin: 0 0;
+  margin: 0 10;
   left: 5;
   text-align: center;
 }
@@ -1672,7 +1672,7 @@ body.dark .up-arrow {
 @media screen and (max-width: 420px) {
   .call {
     max-width: 360px;
-    margin: 2% 10;
+    margin: 0 10;
   }
   .intro-text h1 {
     font-size: 2rem;
@@ -1705,7 +1705,7 @@ body.dark .up-arrow {
     left:0;
     bottom: 50;
     top:0;
-    margin: 2% 20% 2% 20%;
+    margin: 2% 8%;
     height:100%;
     width:500px;
     position:absolute;
@@ -1713,3 +1713,17 @@ body.dark .up-arrow {
 
 }
 
+.whatsapp{
+  display: inline;
+  size: 50rem;
+  position: fixed;
+  margin: auto;
+  bottom: 1%;
+  left: 40%;
+  right: 40%;
+}
+
+.wpp{
+  width: 6rem;
+  height: 6rem;
+}
