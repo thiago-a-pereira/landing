@@ -83,7 +83,7 @@ nav {
 .logo {
   position: fixed;
   top: 5;
-  right: 0;
+  right: 2%;
   font-size: 5rem;
   font-weight: 600;
   line-height: 1.5rem;
@@ -1115,7 +1115,7 @@ body.dark .up-arrow {
   .logo {
     position: fixed;
     top: 5;
-    right: 0;
+    right: 2%;
     font-size: 1.4rem;
     font-weight: 550;
     line-height: 1.1rem;
@@ -1726,7 +1726,7 @@ body.dark .up-arrow {
   position: fixed;
   margin: auto;
   bottom: 1%;
-  right: 1;
+  right: 2%;
 }
 
 .wpp{
