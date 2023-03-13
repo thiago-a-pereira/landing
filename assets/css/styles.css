@@ -961,11 +961,11 @@ form {
 .social {
   text-align: center;
   font-size: 2rem;
-  margin: 2rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
 }
 
 .socicons {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 footer {
