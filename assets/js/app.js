@@ -22,15 +22,13 @@ function menu() {
   if (y.className === "fa fa-bars"){
     y.className += "fa fa-close";
   } else {
-    y.className = "fa fa-bars"
+    y.className = "fa fa-bars";
   }
   var z = document.getElementById("opaco-id");
   if (z.className === "opaco"){
-    z.className += " responsive"
+    z.className += " responsive";
   } else{
     z.className = "opaco"
-  }
-  if (z.className === "opaco responsive"){
     z.addEventListener("click", function(){
       z.className = "opaco";
       y.className = "fa fa-bars";
@@ -39,18 +37,41 @@ function menu() {
   }
 }
 
+
 function popUp(id) {
-  var popup = document.getElementById(id);
-  popup.classList.toggle("show");
-}
-
-function newPopup(){
-  varWindow = window.open (
-  'popup.html',
-  'pagina',
-  "width=350, height=255, top=100, left=110, scrollbars=no " );
+  var pop = document.getElementById(id);
+  pop.classList.toggle("show");
+  var opa = document.getElementById("opaco-id");
+  if (opa.className === "opaco"){
+    opa.className += " responsive";
+  } else{
+      opa.className = "opaco";
+      opa.addEventListener("click", function(){
+      pop.className = "popuptext";
+      opa.className = "opaco";
+    })
   }
-
-function fecharPopup(){
-fecharWindow = varWindow.close()
 }
+
+
+
+/*function popUp(id) {
+  var pop = document.getElementById(id);
+  if (pop.className === "popuptext"){
+    pop.className += " show";
+  } else {
+    pop.className = "popuptext";
+  }
+  var opa = document.getElementById("opaco-id");
+  if (opa.className === "opaco"){
+    opa.className += " responsive";
+  } else{
+    opa.className = "opaco";
+    pop.className = "popuptext";
+    opa.addEventListener("click", function(){
+      pop.className = "popuptext";
+      opa.className = "opaco";
+    })
+  }
+}*/
+
