@@ -1672,6 +1672,7 @@ body.dark .up-arrow {
 @media screen and (max-width: 420px) {
   .call {
     max-width: 360px;
+    margin: 2% 10;
   }
   .intro-text h1 {
     font-size: 2rem;
