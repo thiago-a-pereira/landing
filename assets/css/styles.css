@@ -108,10 +108,15 @@ nav {
   font-weight: 600;
 }
 
+
+.sumir{
+  display: none;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: var(--primary-color);
-  color: rgb(255, 255, 255);
+  color: var(--secondary-color);
 }
 
 /* Add an active class to highlight the current page */
@@ -142,7 +147,7 @@ nav {
   .topnav.responsive {
     position: fixed;
     left:0;
-    top:0;
+    top:0rem;
     z-index: 2;
   }
   .topnav.responsive a.icon {
