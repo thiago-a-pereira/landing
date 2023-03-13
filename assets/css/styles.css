@@ -134,6 +134,17 @@ nav {
   display: none;
 }
 
+.opaco.responsive {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 860px) {
   .topnav a:not(:first-child) {display: none;}
