@@ -8,13 +8,6 @@ scrollUp.addEventListener("click", () => {
     });
 });
 
-const checkbox = document.querySelector("#checkbox");
-
-checkbox.addEventListener("change", () => {
-  // Toggle website theme
-  document.body.classList.toggle("dark");
-});
-
 
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -30,6 +23,19 @@ function menu() {
     y.className += "fa fa-close";
   } else {
     y.className = "fa fa-bars"
+  }
+  var z = document.getElementById("opaco-id");
+  if (z.className === "opaco"){
+    z.className += " responsive"
+  } else{
+    z.className = "opaco"
+  }
+  if (z.className === "opaco responsive"){
+    z.addEventListener("click", function(){
+      z.className = "opaco";
+      y.className = "fa fa-bars";
+      x.className = "topnav";
+    })
   }
 }
 
@@ -48,4 +54,3 @@ function newPopup(){
 function fecharPopup(){
 fecharWindow = varWindow.close()
 }
-
