@@ -132,7 +132,9 @@ nav {
   .topnav a.icon {
     float: center;
     display: block;
-
+    position: fixed;
+    top:0.8rem;
+    left: 0.8rem;
   }
 }
 
@@ -1102,18 +1104,41 @@ body.dark .up-arrow {
     position: fixed;
     margin: auto;
     bottom: 1%;
-    left: 45%;
+    right: 0;
   }
   
   .wpp{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
   }
   
   .logo {
-    font-size: 2rem;
+    position: fixed;
+    top: 5;
+    right: 0;
+    font-size: 1.4rem;
     font-weight: 550;
+    line-height: 1.1rem;
   }
+
+  .brenner {
+    height: 5px;
+    color: #000;
+    font-family: "Sono";
+    font-weight: 600;
+    line-height: 0.5rem;
+    z-index: -1;
+    width: 50%;
+  }
+  
+  .gontijo {
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-family: "Sono";
+  }
+
  
  .call {
     display: flex; 
@@ -1262,24 +1287,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-a {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-a .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1287,21 +1309,21 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
 
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-a .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1321,24 +1343,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-b {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-b .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1346,13 +1365,13 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
   /* Popup arrow 
@@ -1370,8 +1389,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-b .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1389,24 +1408,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-c {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-c .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1414,21 +1430,21 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
 
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-c .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1457,24 +1473,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-d {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-d .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1482,21 +1495,21 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
 
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-d .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1516,24 +1529,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-e {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-e .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1541,13 +1551,13 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
   /* Popup arrow 
@@ -1565,8 +1575,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-e .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1584,24 +1594,21 @@ body.dark .up-arrow {
 
   /* Popup container */
   .titulo-f {
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: -20px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px;
+    width: 19rem;
     border-radius: 1rem;
     border: thick double #000;
-    
   }
 
   /* The actual popup (appears on top) */
   .titulo-f .popuptext {
-
     flex-flow: row wrap;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -1609,21 +1616,21 @@ body.dark .up-arrow {
     max-height: 50vh;
     max-width: 80vw;
     visibility: hidden;
-    background-color: #000;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: #000000;
     text-align: center;
     border-radius: 25px;
     position: absolute;
     z-index: 1;
-
+    border: 1px solid #000;
   }
 
 
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-f .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s
   }
 
   /* Add animation (fade in the popup) */
@@ -1719,11 +1726,10 @@ body.dark .up-arrow {
   position: fixed;
   margin: auto;
   bottom: 1%;
-  left: 40%;
-  right: 40%;
+  right: 1;
 }
 
 .wpp{
-  width: 6rem;
-  height: 6rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
