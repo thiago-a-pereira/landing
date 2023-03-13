@@ -385,8 +385,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .resumo .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -492,8 +492,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-a .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -564,8 +564,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-b .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -635,8 +635,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-c .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -707,8 +707,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-d .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -779,8 +779,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-e .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -851,8 +851,8 @@ nav {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .titulo-f .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
@@ -1353,8 +1353,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-a .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
@@ -1419,8 +1419,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-b .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
@@ -1472,8 +1472,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-c .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
@@ -1536,8 +1536,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-d .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
@@ -1602,8 +1602,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-e .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
@@ -1655,8 +1655,8 @@ body.dark .up-arrow {
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .titulo-f .show {
     visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s
+    -webkit-animation: fadeIn 0.1s;
+    animation: fadeIn 0.1s;
   }
 
   /* Add animation (fade in the popup) */
