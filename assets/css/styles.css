@@ -190,8 +190,8 @@ nav {
   display: flex;
   align-items: center;
   margin-top: auto;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 21%;
+  margin-right: 21%;
   max-width: 100%;
 }
 
@@ -1179,7 +1179,7 @@ body.dark .up-arrow {
     justify-content: center;
     flex-direction: column;
     width: 80wh;
-    margin: 2% 10;
+    margin: 2% 5%;
     font-size: 1rem;
   }
 
@@ -1212,6 +1212,8 @@ body.dark .up-arrow {
   }
   .nome-bren{
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
   }
   
   .nome-bren h1 {
@@ -1729,7 +1731,7 @@ body.dark .up-arrow {
   .intro-text h1 {
     font-size: 2rem;
     width: 100%;
-    margin: 0 10;
+    margin: 0% 1%;
     text-align: center;
   }
 
