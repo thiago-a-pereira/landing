@@ -233,7 +233,7 @@ nav {
 
 
   max-width: 100%;
-  margin: 5% 10%;
+  margin: 3% 10%;
 }
 
 .intro-textt{
@@ -243,7 +243,8 @@ nav {
 }
 .nome-bren{
   width: 50%;
-  margin-top: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .nome-bren h1 {
@@ -283,7 +284,7 @@ nav {
 
 
 .btn {
-  margin-top: 5rem;
+  margin-top: 8rem;
   display: inline-block;
   padding: 0.8rem 0.6rem;
   border: none;
@@ -298,6 +299,7 @@ nav {
   background-color: green;
   color: #fff;
   margin-right: 2.5rem;
+  bottom: 0;
   width: 100%;
 }
 
