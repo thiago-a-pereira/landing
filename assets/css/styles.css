@@ -76,10 +76,13 @@ nav {
 
 .logo {
   position: fixed;
-  top: 5;
+  margin-top: 0.5%;;
   right: 2%;
   z-index: 1;
-  width: 12%;
+}
+
+.logo-advocacia-imobiliaria{
+  max-height: 100px;
 }
 
 /* Add a black background color to the top navigation */
