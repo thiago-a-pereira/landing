@@ -61,3 +61,26 @@ function popUp(id) {
     })
   }
 }
+
+
+
+/*function popUp(id) {
+  var pop = document.getElementById(id);
+  if (pop.className === "popuptext"){
+    pop.className += " show";
+  } else {
+    pop.className = "popuptext";
+  }
+  var opa = document.getElementById("opaco-id");
+  if (opa.className === "opaco"){
+    opa.className += " responsive";
+  } else{
+    opa.className = "opaco";
+    pop.className = "popuptext";
+    opa.addEventListener("click", function(){
+      pop.className = "popuptext";
+      opa.className = "opaco";
+    })
+  }
+}*/
+
