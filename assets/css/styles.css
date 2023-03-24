@@ -1712,7 +1712,7 @@ body.dark .up-arrow {
 @media screen and (max-width: 470px) {
   .logo {
     position: absolute;
-    top: 0.5rem;
+    top: 0.8rem;
     right: -2%;
     width: 42%;
   }
